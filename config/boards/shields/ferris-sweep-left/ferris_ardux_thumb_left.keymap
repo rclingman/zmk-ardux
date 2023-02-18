@@ -26,9 +26,12 @@
 #define CUSTOM_THUMB &kp LEFT_SHIFT &kp LEFT_CONTROL
 
 // Define Offsets
+// gives the horizontal offset, but breaks combos
 #define LEADING_NONES NONE(0,0,0)
+// no difference when changing by one?
 #define MIDDLE_NONES NONE(0,0,1)
-#define TRAILING_NONES NONE(0,0,7)
+// this seems to affect the thumb keys
+#define TRAILING_NONES NONE(0,0,6)
 
 // Include main ardux.io keymap
 #include "../../../ardux.dtsi"
