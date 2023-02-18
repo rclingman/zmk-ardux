@@ -26,8 +26,8 @@
 #define CUSTOM_THUMB &kp LEFT_SHIFT &kp LEFT_CONTROL
 
 // Define Offsets
-#define LEADING_NONES NONE(0,0,1)
-#define MIDDLE_NONES NONE(0,0,1)
+#define LEADING_NONES NONE(0,0,0)
+#define MIDDLE_NONES NONE(0,0,2)
 #define TRAILING_NONES NONE(0,0,6)
 
 // Include main ardux.io keymap
