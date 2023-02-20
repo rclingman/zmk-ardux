@@ -225,9 +225,9 @@
 		 * 2 key combos
 		 *****************************************/
 		// Function layer doesn't apply to non-big ardux presently
-//		#if defined ARDUX_BIG
-//		combo_layer_functions { key-positions = <KEY_F_TOP KEY_F_BOTTOM>; bindings = <&sl LAYER_ID_BIG_FUNCTION>; };
-//		#endif
+		#if defined ARDUX_BIG
+		combo_layer_functions { key-positions = <KEY_F_TOP KEY_F_BOTTOM>; bindings = <&sl LAYER_ID_BIG_FUNCTION>; };
+		#endif
 		combo_enter      { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_E>; bindings = <&kp ENTER>; };
 		combo_control    { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_S>; bindings = <&sk LCTRL>; };
 		combo_gui        { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_S>; bindings = <&sk LGUI>; };
