@@ -52,8 +52,8 @@
  *  ONLY ENABLE ONE OF THESE
 *****************************************/
 //#define ARDUX_RIGHT 1
-define ARDUX_LEFT 1
-define ARDUX_BIG 1
+//#define ARDUX_LEFT 1
+//#define ARDUX_BIG 1
 // If you use COLEMAK as your standard keyboard layout, you may want this
 //     This define will make base ardux keys and N more in line with COLEMAK
 //#define ARDUX_COLEMAK 1
