@@ -23,7 +23,7 @@
 #define KEY_O 5
 
 // Define Custom Thumb Keys
-#define CUSTOM_THUMB &kp LSHFT &kp LCTRL
+#define CUSTOM_THUMB &kp LSHFT &sk LCTRL
 
 // Define Offsets
 #define LEADING_NONES NONE(0,0,0)
