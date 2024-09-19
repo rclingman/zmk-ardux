@@ -26,9 +26,9 @@
 #define CUSTOM_THUMB &kp LSHFT &kp LSHFT
 
 // Define Offsets
-#define LEADING_NONES NONE(0,0,6)
-#define MIDDLE_NONES NONE(0,0,1)
-#define TRAILING_NONES NONE(0,0,6)
+#define LEADING_NONES NONE(0, 1, 0)
+#define MIDDLE_NONES NONE(0, 0, 3)
+#define TRAILING_NONES NONE(0, 1, 0)
 
 // Include main ardux.io keymap
 #include "../../../ardux.dtsi"
